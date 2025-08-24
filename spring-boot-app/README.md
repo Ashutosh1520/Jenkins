@@ -10,7 +10,7 @@ This is a MVC architecture based application where controller returns a page wit
 Checkout the repo and move to the directory
 
 ```
-git clone https://github.com/Ashutosh1520/Jenkins/spring-boot-app
+git clone https://github.com/Ashutosh1520/Jenkins.git
 cd Jenkins/spring-boot-app
 ```
 
