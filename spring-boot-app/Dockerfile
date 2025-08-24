@@ -9,7 +9,7 @@ ARG artifact=target/spring-boot-web.jar
 WORKDIR /app
 
 # Copy Spring-boot jar file inside container
-COPY $(artifact) app.jar
+COPY ${artifact} app.jar
 
 # This should not be changed
 ENTRYPOINT ["java", "-jar", "app.jar"]
